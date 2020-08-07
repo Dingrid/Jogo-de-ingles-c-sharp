@@ -1,0 +1,14 @@
+F:\Ingreis\ingres\ingres\bin\Debug\ingres.exe
+F:\Ingreis\ingres\ingres\bin\Debug\ingres.pdb
+F:\Ingreis\ingres\ingres\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\Ingreis\ingres\ingres\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Ingreis\ingres\ingres\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Ingreis\ingres\ingres\obj\x86\Debug\ingres.exe
+F:\Ingreis\ingres\ingres\obj\x86\Debug\ingres.pdb
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Menu.resources
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Quest1.resources
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Quest2.resources
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Quest3.resources
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Quest4.resources
+F:\Ingreis\ingres\ingres\obj\x86\Debug\WindowsFormsApplication1.Quest5.resources
