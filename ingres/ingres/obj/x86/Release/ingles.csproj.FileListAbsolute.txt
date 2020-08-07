@@ -18,3 +18,8 @@ C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86
 C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\ingres.pdb
 C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\WindowsFormsApplication1.Quest11.resources
 C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\WindowsFormsApplication1.Quest6.resources
+C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\ingles.csprojAssemblyReference.cache
+C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\WindowsFormsApplication1.Quest10.resources
+C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\WindowsFormsApplication1.Quest7.resources
+C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\WindowsFormsApplication1.Quest8.resources
+C:\Users\isaso\Documents\Ingrid\Portifólio\Jogo de ingles\ingres\ingres\obj\x86\Release\WindowsFormsApplication1.Quest9.resources

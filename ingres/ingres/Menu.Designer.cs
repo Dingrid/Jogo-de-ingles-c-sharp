@@ -69,11 +69,12 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(76, 219);
+            this.label2.Location = new System.Drawing.Point(16, 219);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(517, 21);
+            this.label2.Size = new System.Drawing.Size(659, 21);
             this.label2.TabIndex = 3;
-            this.label2.Text = "se escolher a resposta correta, avançará de fase, se não, voltará ";
+            this.label2.Text = "se escolher a resposta correta, avançará para a próxima pergunta, se não, voltará" +
+    " ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3

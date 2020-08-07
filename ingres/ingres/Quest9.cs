@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Quest6 : Form
+    public partial class Quest9 : Form
     {
-        public Quest6()
+        public Quest9()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnIllegal_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Resposta errada");
             Menu a = new Menu();
@@ -24,18 +24,18 @@ namespace WindowsFormsApplication1
             Hide();
         }
 
-        private void btnOf_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Resposta errada");
-            Menu a = new Menu();
-            a.Show();
-            Hide();
-        }
-
-        private void btnFor_Click(object sender, EventArgs e)
+        private void btnLegitimate_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Resposta certa!");
-            Quest7 a = new Quest7();
+            Quest10 a = new Quest10();
+            a.Show();
+            Hide();
+        }
+
+        private void btnStudents_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Resposta errada");
+            Menu a = new Menu();
             a.Show();
             Hide();
         }
