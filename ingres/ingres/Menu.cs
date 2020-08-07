@@ -40,17 +40,7 @@ namespace WindowsFormsApplication1
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            lblData.Text = "Data: " + DateTime.Now.ToString("dd/MM/yyyy");
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            lblHora.Text = "Hora: " + DateTime.Now.ToString("HH:mm:ss");
-        }
-
-        private void lblHora_Click(object sender, EventArgs e)
-        {
-            lblHora.Text = "Hora: " + DateTime.Now.ToString("HH:mm:ss");
+           
         }
     }
 }
