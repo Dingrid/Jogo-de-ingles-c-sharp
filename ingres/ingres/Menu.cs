@@ -33,8 +33,8 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Quest1 a = new Quest1();
-            a.Show();
+            Nivel nivel = new Nivel();
+            nivel.Show();
             Hide();
         }
 

@@ -54,9 +54,9 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(104, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 16);
+            this.label2.Size = new System.Drawing.Size(103, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "1 - We __ students";
+            this.label2.Text = "We __ students";
             // 
             // button1
             // 

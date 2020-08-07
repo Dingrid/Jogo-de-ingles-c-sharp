@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -43,11 +42,11 @@
             // 
             this.lblinstruções.AutoSize = true;
             this.lblinstruções.BackColor = System.Drawing.Color.Transparent;
-            this.lblinstruções.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblinstruções.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblinstruções.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblinstruções.Location = new System.Drawing.Point(319, 93);
+            this.lblinstruções.Location = new System.Drawing.Point(257, 101);
             this.lblinstruções.Name = "lblinstruções";
-            this.lblinstruções.Size = new System.Drawing.Size(169, 33);
+            this.lblinstruções.Size = new System.Drawing.Size(199, 39);
             this.lblinstruções.TabIndex = 1;
             this.lblinstruções.Text = "Instruções:";
             // 
@@ -55,24 +54,24 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(211, 161);
+            this.label1.Location = new System.Drawing.Point(58, 171);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(349, 17);
+            this.label1.Size = new System.Drawing.Size(603, 21);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Este quiz é composto por 5 perguntas de múltipla escolha";
+            this.label1.Text = "Este quiz é composto por 3 níveis com 5 perguntas de múltipla escolha cada";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(174, 238);
+            this.label2.Location = new System.Drawing.Point(76, 219);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(398, 17);
+            this.label2.Size = new System.Drawing.Size(517, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "se escolher a resposta correta, avançará de fase, se não, voltará ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -81,11 +80,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(322, 285);
+            this.label3.Location = new System.Drawing.Point(284, 264);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 17);
+            this.label3.Size = new System.Drawing.Size(141, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "ao início do jogo.";
             // 
@@ -111,7 +110,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Navy;
-            this.button2.Location = new System.Drawing.Point(434, 341);
+            this.button2.Location = new System.Drawing.Point(400, 341);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -119,25 +118,13 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Navy;
-            this.label4.Location = new System.Drawing.Point(285, 201);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(185, 17);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "em Inglês sobre o verbo to be";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources._66_667129_quiz_test_answer_exam_questionnaire_education_quiz_transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(325, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(288, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(123, 69);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -150,7 +137,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(703, 410);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -176,7 +162,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -52,11 +52,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 49);
+            this.label1.Location = new System.Drawing.Point(83, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 16);
+            this.label1.Size = new System.Drawing.Size(121, 16);
             this.label1.TabIndex = 3;
-            this.label1.Text = "3 - __ you a student?";
+            this.label1.Text = "__ you a student?";
             // 
             // button1
             // 

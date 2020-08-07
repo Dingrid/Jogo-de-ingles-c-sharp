@@ -80,6 +80,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel.Designer.cs">
+      <DependentUpon>Nivel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quest1.cs">
@@ -87,6 +93,12 @@
     </Compile>
     <Compile Include="Quest1.Designer.cs">
       <DependentUpon>Quest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quest11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quest11.Designer.cs">
+      <DependentUpon>Quest11.cs</DependentUpon>
     </Compile>
     <Compile Include="Quest2.cs">
       <SubType>Form</SubType>
@@ -112,8 +124,17 @@
     <Compile Include="Quest5.Designer.cs">
       <DependentUpon>Quest5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Quest6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quest6.Designer.cs">
+      <DependentUpon>Quest6.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel.resx">
+      <DependentUpon>Nivel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,6 +149,9 @@
     <EmbeddedResource Include="Quest1.resx">
       <DependentUpon>Quest1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Quest11.resx">
+      <DependentUpon>Quest11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quest2.resx">
       <DependentUpon>Quest2.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Quest5.resx">
       <DependentUpon>Quest5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quest6.resx">
+      <DependentUpon>Quest6.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ingres_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">

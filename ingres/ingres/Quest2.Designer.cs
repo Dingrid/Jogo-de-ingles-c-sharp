@@ -52,11 +52,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 69);
+            this.label1.Location = new System.Drawing.Point(102, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 16);
+            this.label1.Size = new System.Drawing.Size(100, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "2 - She __ happy.";
+            this.label1.Text = "She __ happy.";
             // 
             // button1
             // 
