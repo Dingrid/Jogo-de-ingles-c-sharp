@@ -15,5 +15,29 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void btnHow_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Resposta errada");
+            Menu a = new Menu();
+            a.Show();
+            Hide();
+        }
+
+        private void btnKnow_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Resposta errada");
+            Menu a = new Menu();
+            a.Show();
+            Hide();
+        }
+
+        private void btnWell_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Resposta errada");
+            Quest13 a = new Quest13();
+            a.Show();
+            Hide();
+        }
     }
 }

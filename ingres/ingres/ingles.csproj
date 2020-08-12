@@ -106,6 +106,30 @@
     <Compile Include="Quest11.Designer.cs">
       <DependentUpon>Quest11.cs</DependentUpon>
     </Compile>
+    <Compile Include="Quest12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quest12.Designer.cs">
+      <DependentUpon>Quest12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quest13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quest13.Designer.cs">
+      <DependentUpon>Quest13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quest14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quest14.Designer.cs">
+      <DependentUpon>Quest14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quest15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quest15.Designer.cs">
+      <DependentUpon>Quest15.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quest2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +202,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Quest11.resx">
       <DependentUpon>Quest11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quest12.resx">
+      <DependentUpon>Quest12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quest13.resx">
+      <DependentUpon>Quest13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quest14.resx">
+      <DependentUpon>Quest14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quest15.resx">
+      <DependentUpon>Quest15.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Quest2.resx">
       <DependentUpon>Quest2.cs</DependentUpon>
