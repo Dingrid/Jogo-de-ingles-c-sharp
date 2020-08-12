@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ingres.exe" size="2388480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ingres.exe" size="2390016">
       <assemblyIdentity name="ingres" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>DRqKd25guT87cMX2ENbwGLN6pos=</dsig:DigestValue>
+        <dsig:DigestValue>6TDJDoPDLVYG0C1jLFnCeoctZAU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

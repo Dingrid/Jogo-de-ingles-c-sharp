@@ -15,5 +15,29 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void btnBater_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Resposta errada");
+            Menu a = new Menu();
+            a.Show();
+            Hide();
+        }
+
+        private void btnBaderna_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Resposta errada");
+            Menu a = new Menu();
+            a.Show();
+            Hide();
+        }
+
+        private void btnCama_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Awesome! Você venceu o jogo, seu Inglês é impressionante!");
+            Menu a = new Menu();
+            a.Show();
+            Hide();
+        }
     }
 }
