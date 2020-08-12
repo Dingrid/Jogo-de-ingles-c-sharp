@@ -80,7 +80,7 @@
             this.btnHow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHow.ForeColor = System.Drawing.Color.Navy;
-            this.btnHow.Location = new System.Drawing.Point(88, 100);
+            this.btnHow.Location = new System.Drawing.Point(88, 107);
             this.btnHow.Name = "btnHow";
             this.btnHow.Size = new System.Drawing.Size(75, 23);
             this.btnHow.TabIndex = 28;
