@@ -28,64 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnWell = new System.Windows.Forms.Button();
-            this.btnKnow = new System.Windows.Forms.Button();
-            this.btnHow = new System.Windows.Forms.Button();
+            this.btnGrato = new System.Windows.Forms.Button();
+            this.btnMerecer = new System.Windows.Forms.Button();
+            this.btnValor = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label3
+            // btnGrato
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(44, 57);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 16);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "one of the simplest DoS tools.";
+            this.btnGrato.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._144559;
+            this.btnGrato.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrato.ForeColor = System.Drawing.Color.Navy;
+            this.btnGrato.Location = new System.Drawing.Point(83, 223);
+            this.btnGrato.Name = "btnGrato";
+            this.btnGrato.Size = new System.Drawing.Size(90, 29);
+            this.btnGrato.TabIndex = 41;
+            this.btnGrato.Text = "Seja grato.";
+            this.btnGrato.UseVisualStyleBackColor = true;
+            this.btnGrato.Click += new System.EventHandler(this.btnGrato_Click);
             // 
-            // btnWell
+            // btnMerecer
             // 
-            this.btnWell.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._144559;
-            this.btnWell.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnWell.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWell.ForeColor = System.Drawing.Color.Navy;
-            this.btnWell.Location = new System.Drawing.Point(88, 258);
-            this.btnWell.Name = "btnWell";
-            this.btnWell.Size = new System.Drawing.Size(75, 23);
-            this.btnWell.TabIndex = 30;
-            this.btnWell.Text = "well";
-            this.btnWell.UseVisualStyleBackColor = true;
+            this.btnMerecer.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._144559;
+            this.btnMerecer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMerecer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMerecer.ForeColor = System.Drawing.Color.Navy;
+            this.btnMerecer.Location = new System.Drawing.Point(83, 165);
+            this.btnMerecer.Name = "btnMerecer";
+            this.btnMerecer.Size = new System.Drawing.Size(90, 35);
+            this.btnMerecer.TabIndex = 40;
+            this.btnMerecer.Text = "Faça por merecer.";
+            this.btnMerecer.UseVisualStyleBackColor = true;
+            this.btnMerecer.Click += new System.EventHandler(this.btnMerecer_Click);
             // 
-            // btnKnow
+            // btnValor
             // 
-            this.btnKnow.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._144559;
-            this.btnKnow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnKnow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKnow.ForeColor = System.Drawing.Color.Navy;
-            this.btnKnow.Location = new System.Drawing.Point(88, 177);
-            this.btnKnow.Name = "btnKnow";
-            this.btnKnow.Size = new System.Drawing.Size(75, 23);
-            this.btnKnow.TabIndex = 29;
-            this.btnKnow.Text = "know";
-            this.btnKnow.UseVisualStyleBackColor = true;
-            // 
-            // btnHow
-            // 
-            this.btnHow.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._144559;
-            this.btnHow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHow.ForeColor = System.Drawing.Color.Navy;
-            this.btnHow.Location = new System.Drawing.Point(88, 107);
-            this.btnHow.Name = "btnHow";
-            this.btnHow.Size = new System.Drawing.Size(75, 23);
-            this.btnHow.TabIndex = 28;
-            this.btnHow.Text = "how";
-            this.btnHow.UseVisualStyleBackColor = true;
+            this.btnValor.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._144559;
+            this.btnValor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnValor.ForeColor = System.Drawing.Color.Navy;
+            this.btnValor.Location = new System.Drawing.Point(83, 104);
+            this.btnValor.Name = "btnValor";
+            this.btnValor.Size = new System.Drawing.Size(90, 41);
+            this.btnValor.TabIndex = 39;
+            this.btnValor.Text = "Não dar valor.";
+            this.btnValor.UseVisualStyleBackColor = true;
+            this.btnValor.Click += new System.EventHandler(this.btnValor_Click);
             // 
             // label2
             // 
@@ -93,11 +83,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(-1, 36);
+            this.label2.Location = new System.Drawing.Point(75, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(271, 16);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "LOIC is probably the most __-known and";
+            this.label2.Size = new System.Drawing.Size(116, 16);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Take for granted";
             // 
             // label1
             // 
@@ -105,22 +95,22 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(2, 1);
+            this.label1.Location = new System.Drawing.Point(74, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(244, 23);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "CONHECIMENTOS GERAIS";
+            this.label1.Size = new System.Drawing.Size(121, 23);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "EXPRESSÕES";
             // 
             // Quest14
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.rainbow_pastel_background_tumblr_300x200;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(268, 283);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnWell);
-            this.Controls.Add(this.btnKnow);
-            this.Controls.Add(this.btnHow);
+            this.Controls.Add(this.btnGrato);
+            this.Controls.Add(this.btnMerecer);
+            this.Controls.Add(this.btnValor);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -134,10 +124,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnWell;
-        private System.Windows.Forms.Button btnKnow;
-        private System.Windows.Forms.Button btnHow;
+        private System.Windows.Forms.Button btnGrato;
+        private System.Windows.Forms.Button btnMerecer;
+        private System.Windows.Forms.Button btnValor;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

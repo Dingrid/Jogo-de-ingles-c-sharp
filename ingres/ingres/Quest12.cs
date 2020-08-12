@@ -34,7 +34,7 @@ namespace WindowsFormsApplication1
 
         private void btnWell_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Resposta errada");
+            MessageBox.Show("Resposta certa!");
             Quest13 a = new Quest13();
             a.Show();
             Hide();
